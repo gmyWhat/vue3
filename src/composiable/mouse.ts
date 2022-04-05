@@ -1,5 +1,6 @@
 import type { Ref } from 'vue'
 import { onMounted, onUnmounted, ref } from 'vue'
+const add = 'add'
 // 鼠标移动获取坐标方法
 export default function useMouse() {
   const x: Ref = ref(0)
